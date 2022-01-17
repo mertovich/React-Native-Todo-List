@@ -9,7 +9,6 @@ const App = () => {
 
   const addList = () => {
     setData(DATA => [...DATA, text])
-    console.log(DATA)
   }
 
   const deletItem = (item) => {
@@ -67,7 +66,7 @@ const styles = StyleSheet.create({
     width: '80%',
     height: 40,
     margin: 10,
-    padding:10,
+    padding: 10,
     borderWidth: 1,
     opacity: 1,
   },
@@ -80,7 +79,7 @@ const styles = StyleSheet.create({
   item: {
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent:'space-evenly',
+    justifyContent: 'space-evenly',
     backgroundColor: '#eeeeee',
     padding: 30,
     marginVertical: 8,
@@ -92,10 +91,6 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: 'space-evenly',
   },
-
-  addButton:{
-    marginTop:20,
-  }
 
 });
 
